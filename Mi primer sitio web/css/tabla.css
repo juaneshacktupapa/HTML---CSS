@@ -1,0 +1,22 @@
+body {
+    background: #f5f5cc;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #f5f5dc;
+    width: 500px;
+    background: #008080;
+    color: #fff;
+}
+table td {
+    border: 1px solid #f5f5dc;
+    padding: 15px;
+}
+table tr:hover {
+    background: #fff;
+    color: #008080;
+}
+table td:hover {
+    background: #ccc;
+    color: #008080;
+}

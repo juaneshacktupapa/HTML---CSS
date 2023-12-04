@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi primera web</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+            table{
+                width: 500px !important;
+            }
+            th{
+                background-color: aqua;
+                color: yellow !important;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="blog.html">blog</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Canntidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cuderno</td>
+                    <td>$4000</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Lapiz</td>
+                    <td>$700</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Borrador</td>
+                    <td>$500</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Kit de elementos</td>
+                    <td>$10000</td>
+                    <td>Segun disponibilidad</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>Resumen</td>
+                <td>5200</td>
+                <td>28</td>
+            </tfoot>
+        </table>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ul>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li value="50">Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>
+                <ol>
+                    <li style="list-style-type: lower-alpha;">Subelemento 3</li>
+                    <li style="list-style-type: lower-alpha;">Subelemento 2</li>
+                    <li style="list-style-type: lower-alpha;">Subelemento 1</li>
+                </ol>
+            </li>
+        </ol>
+        <form action="/formulario" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            <br>
+            <label for="cc">Cedula</label>
+            <input type="file" id="cc" name="cc" placeholder="Cedula">
+            <br>
+            <label for="comentario">Comentario</label>
+            <br>
+            <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Ingrese su comentario" ></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h1>Mi primer heading</h1>
+        <h2>Mi segundo heading</h2>
+        <h3>Mi tercer heading</h3>
+        <h4>Mi cuarto heading</h4>
+        <h5>Mi quinto heading</h5>
+        <h6>Mi sexto heading</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ad facere delectus dolore sunt quis quasi ducimus atque eligendi, deleniti, quidem ratione nihil veniam quas ipsum ex officiis aliquid cupiditate!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatum! Quas ipsa dolorum libero. Corporis illum quaerat quas eveniet laudantium ipsa ab culpa est, aut tempore, adipisci accusamus quos placeat.</p>
+        <hr>
+        <h2>Segundo h2</h2>
+        <p>Lorem ipsum dolor sit <span style="color: rgb(17, 17, 173);"> amet consectetur adipisicing elit.</span> 
+            <br>Deserunt qui, eaque earum molestias fugit autem tempore deleniti dolorem libero voluptate voluptatibus sit mollitia cumque illum alias assumenda, minus nihil aut.
+        </p>
+        <!--esto es un comentario-->
+        <a target="_blank" href="https://www.youtube.com">Ir a youtube</a>
+        <br>
+        <img src="imagenes/djordje-vukojicic-Akrqd6maKqw-unsplash.jpg" alt="" width="1000">
+    </body>
+</html>

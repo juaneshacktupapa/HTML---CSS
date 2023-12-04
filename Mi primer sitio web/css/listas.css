@@ -1,0 +1,15 @@
+ul > ul > ul {
+    list-style-type: armenian;
+    list-style-position: inside !important;
+}
+ul > ul {
+    list-style-type: lower-greek;
+    list-style-position: outside !important;
+}
+ul {
+    list-style-type: georgian;
+    list-style-position: inside;
+}
+ol {
+    list-style-type: upper-roman;
+}

@@ -1,0 +1,20 @@
+h1 { 
+    font-weight: normal;
+    text-align: center;
+    background: #ccc;
+    color: #00000088;
+}
+p { 
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, 'Times New Roman', Times, serif;
+    /* Estilo o fuente de la letra */
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Letra en negrita, normal, etc. */
+    text-align: right; /* Posicionameinto del parrafo */
+    line-height: 20px; /* Tamaño de la linea de texto */
+    text-decoration: line-through; /* Linea sobre el texto, subrayado, arriba, etc. */
+    text-transform: uppercase; /* Texto en mayuscula, parrafo, minuscula, etc. */
+    letter-spacing: 10px; /* Espacio entre las letras */
+    word-spacing: 20px; /* Espacio entre palabras */
+    text-shadow: 5px 5px 5px #000000; /* Sombra del texto */
+}

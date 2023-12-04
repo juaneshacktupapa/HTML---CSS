@@ -1,0 +1,12 @@
+body {
+    font-size: 20px;
+}
+div{
+    font-size: 24px;
+    background: rgb(173, 173, 67);
+    color: rgb(212, 93, 93);
+    width: 50%;
+}
+p {
+    font-size: 1em;
+}

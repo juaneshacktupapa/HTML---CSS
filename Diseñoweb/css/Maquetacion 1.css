@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+.p{
+	width: 90%;
+	height: 100%;
+}
+.azul{
+	width: 100%;
+	height: 100px;
+	border: 5px solid black;
+	background-color: #356db2;
+}
+.rojo{
+	width: 100%;
+	height: 40px;
+	border: 5px solid black;
+	background-color: #b63633;
+}
+.morado{
+	width: 100%;
+	height: 360px;
+	border: 5px solid black;
+	background-color: #634585;
+}
+.naranja{
+	width: 100%;
+	height: 100px;
+	border: 5px solid black;
+	background-color: #de7922;
+}

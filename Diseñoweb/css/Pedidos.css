@@ -1,0 +1,54 @@
+body{
+	background: #FFA07A;
+	background-image: url(../img/logo1.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: Arial;
+}
+h1{
+	font-size: 60px;
+	color: red;
+}
+.form1 {
+	background-image: url(../img/producto.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.form1 fieldset legend {
+	color: blue;
+}
+.c{
+	color: brown;
+}
+.Calidad{
+	color: green;
+	padding: 30px;
+}
+.Cantidad{
+	color: yellow;
+	padding: 30px;
+}
+.form1 fieldset{
+	border-radius: 20px;
+}
+.form2 fieldset{
+	border-radius: 20px;
+}
+.form2 fieldset legend{
+	color:blue;
+}
+.n{
+	color: #00F9FF;
+	padding: 30px;
+}
+.form2 fieldset textarea{
+	min-height: 150px;
+	max-height: 150px;
+	min-width: 30%;
+	max-width: 30%;
+}
+.form2 input[type="text"]:focus,
+.form2 textarea:focus{
+	border: 3px solid #1D60B4;
+}

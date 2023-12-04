@@ -1,0 +1,49 @@
+@keyframes colores{
+/*	from{
+		background-color: #7899d4;
+	}
+	to{
+		background-color: #32a287; 
+	}*/
+	/*0%{
+		background-color: #9eb3c2; width: 300px;
+	}
+	25%{
+		background-color: #065a82; width: 400px;
+	}
+	75%{
+		background-color: #1b3b6f; width: 500px;
+	}
+	100%{
+		background-color: #21295c; width: 600px;
+	}*/
+	0%{
+		background-color: #9eb3c2; width: 300px;
+	}
+	25%{
+		background-color: #1c7293; width: 300px;
+	}
+	50%{
+		background-color: #065a82; width: 400px;
+	}
+	75%{
+		background-color: #1b3b6f; width: 300px;
+	}
+	100%{
+		background-color: #9eb3c2; width: 200px;
+	}
+}
+@keyframes movimiento{
+	0%{transform: translate(0px);}
+	50%{transform: translate(500px);}
+	100%{transform: translate(0px);}
+	
+}
+.clase1{
+	width: 200px;
+	height: 200px;
+	background-color: #7899d4;
+	animation-name: movimiento;
+	animation-duration: 7s;
+	animation-iteration-count: infinite; 
+}

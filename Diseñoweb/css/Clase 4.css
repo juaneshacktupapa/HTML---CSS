@@ -1,0 +1,33 @@
+a{
+	font-size: 20px;
+	text-decoration: none;
+}
+a:hover{
+	background: #F9A03F;
+	color: #FFF;
+}
+a:link{
+	text-decoration: none;
+	color: red;
+}
+a:visited{
+	color: green;
+}
+body{
+	font-family: "comic sans", arial, sans-serif;
+}
+p{
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+h1, h2{
+	font-family: "times new roman";
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	color: #4281ED;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+}

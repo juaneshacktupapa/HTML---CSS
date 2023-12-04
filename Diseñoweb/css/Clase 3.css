@@ -1,0 +1,39 @@
+*{
+	color: red;
+}
+p{
+	color: yellow;
+}
+h1,h2,h3{
+	color: #FF5733;
+}
+div p{
+	font-size: 20px;
+	color:green;
+}
+p a{
+	color: brown;
+}
+.grande{
+	font-size: 50px;
+}
+body{
+	/*background:#35CA91; */
+	background: url(../img/double-bubble-dark.png);
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-position: 30px 80px;
+	background-size: auto; 
+}
+.fondo{
+	width: 600px height: 600px;
+	background: url(../img/descarga.png) #000;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*formulario*/
+
+
+
+

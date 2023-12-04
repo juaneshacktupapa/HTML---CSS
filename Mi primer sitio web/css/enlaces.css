@@ -1,0 +1,40 @@
+a:link { 
+    color: red;
+    /* Enlaces que no se han visitado antes */
+    padding: 10px 20px;
+}
+a:hover { 
+    color: purple;
+    text-decoration: underline;
+    font-size: 30px;
+    background: #000;
+}
+a:active { 
+    background: aqua;
+}
+a:visited {
+    color: chartreuse;
+    text-decoration: line-through;
+}
+.enlace1 { 
+    font-size: 20px;
+    color: #000 !important;
+    /* Si se pone el color queda para todos las selecciones */
+    text-decoration: none;
+    margin: 10px 20px 10px 0px;
+}
+.boton {
+    display: inline-block;
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px blue;
+}
+.boton:hover {
+    box-shadow: 0px 2px 0px blue;
+    background: #ccc;
+    color: white;
+}
+.boton:active {
+    box-shadow: none;
+}

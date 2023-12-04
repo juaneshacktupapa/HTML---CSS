@@ -1,0 +1,17 @@
+body {
+    background: url(../imagenes/pianchette-top-7989881_1280.jpg);
+    color: aliceblue;
+    background-attachment: fixed;
+    background-position: center 10px;
+}
+a {
+    color: orange !important;
+}
+h1 {
+    background: url(../imagenes/cyberpunk-6061251_1280.jpg);
+    height: 300px;
+    text-align: center;
+}
+div { 
+    background:#000 ;
+}

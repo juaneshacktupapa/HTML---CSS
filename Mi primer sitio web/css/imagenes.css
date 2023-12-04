@@ -1,0 +1,16 @@
+div { 
+    background: #ccc;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px teal;
+    padding: 10px;
+    border: 1px solid #000;
+}

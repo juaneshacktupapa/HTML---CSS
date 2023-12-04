@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 80%;
+	height: 200px;
+	background-color: blue;
+	border: 5px solid red;
+	margin: auto;
+}
+.paneli{
+	width: 30%;
+	height: 100%;
+	background-color: blue;
+	border: 5px solid black;
+	float: left;
+}
+.paneld{
+	width:70%;
+	height: 100%;
+	border: 5px solid black;
+	float: left;
+}

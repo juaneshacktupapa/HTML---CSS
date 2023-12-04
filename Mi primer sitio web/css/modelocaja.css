@@ -1,0 +1,29 @@
+div { 
+    width: 400px;
+    height: 100px;
+    background: teal;
+    margin: 30px 50px;
+    /* El primmer valor representa el margen externo de la parte superior e inferior
+    El segundo valo represente el margen externo lateral, es decir derecha e izquierda */
+    padding: 20px;
+    /* Represnta el margen interno, como solo hay un valor abarca los 4 lados */
+    border: groove 10px #000;
+    /* Tanto el margin, padding y border, altearan el tamño de la etiqueta 
+    ya que este valor es sumado con el valor otorgado al ancho y alto de la misma*/
+    /* 
+    dotted - Define un borde punteado.
+    dashed - Define un borde discontinuo.
+    solid - Define un borde sólido.
+    double - Define un doble borde.
+    groove- Define un borde ranurado en 3D. El efecto depende del valor del color del borde.
+    ridge- Define un borde acanalado en 3D. El efecto depende del valor del color del borde.
+    inset- Define un borde de inserción 3D. El efecto depende del valor del color del borde.
+    outset- Define un borde de inicio 3D. El efecto depende del valor del color del borde.
+    none - No define fronteras
+    hidden - Define un borde oculto.
+    */
+    border-radius: 40px;
+    display: inline-block;
+    /* Display modifica el tipo de contenedor para ponerlo inline, blobk, etc y asi organizar
+    los elementos de distintas maneras */
+}

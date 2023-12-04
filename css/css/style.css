@@ -1,0 +1,185 @@
+#titulo {
+    color: tomato;
+}
+p.texto {
+    color: slateblue;
+}
+p.especial {
+    color: mediumseagreen;
+    /* El segundo valor en ser puesto  sera el que se interrponga */
+}
+div p {
+    color: aquamarine;
+}
+div h2, div h3 {
+    color: brown;
+}
+* {
+    font-size: 24px;
+    /* color: black; */
+    /* Si se ha definido  un valor en otra seleccion, esa se interpone frente al selector universal (*),
+    sin importar su orden */
+}
+/* 
+.color {
+    color: #0f0;
+    Se puede usar en hexadecimal de 3 y 6 cifras, dividiendose en tres valores rojo - verde - azul, 
+    siguiendo el orden descrito
+}
+.color {
+    color: rgb(0, 255, 0);
+    Se puede usar en RGB(RED, GREEN, BLUE), siguiendo el orden descrito de 0 a 255
+}
+*/
+.color {
+    /* border: 5px teal groove; */
+    /* 
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */
+    border-style: outset;
+    border-color: yellowgreen;
+    border-radius: 10px;
+    border-width: 3px;
+}
+#fondo {
+    /* background-color: #0000ff88; */
+    /* opacity: 0.3; */
+    /* background-image: url("../imagenes/fondo.jpg"); */
+    height: 500px;
+    width: 1000px;
+    /* background-repeat: repeat-x; */
+    /* background-position: left center; */
+    background: #0000ff88 url("../imagenes/fondo.jpg") repeat-x left center / 500px;
+    /* background-size: 1000px auto !important; */
+}
+.margen {
+    background-color: #a52a2a;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 20px 20px 15px;
+    border: solid 1px #000;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+    outline: 1px solid #00f;
+}
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 3px 5px 5px #00f;
+}
+a:link {
+    color: skyblue;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: black;
+}
+ul {
+   background-color: cyan;
+   color: white;
+   list-style-type: georgian;
+   padding-left: 0px;
+   list-style-position: inside;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px #aaa;
+    padding: 5px;
+}
+th {
+    background-color: teal;
+    color: beige;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: red;
+    color: beige;
+}
+tr:nth-last-child(odd){
+    background-color: green;
+    color: beige;
+}
+tr:hover {
+    background-color: thistle;
+    color: white;
+    cursor: pointer;
+}
+.inline {
+    display: inline;
+}
+span {
+    display: block;
+    background-color: aqua;
+    max-width: 1500px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+#posicion {
+    position: absolute;
+    left: 40%;
+    /* 
+    relative - Posicon en base a su punto de orgen
+    fixed - Deja en un punto fijo de la pantalla el objeto
+    absolute - Posicon relativa en base al elemento padre mas cercano
+    sticky - Combinacion entre fixed y relative
+    Moviendolas con las funcionalida de left, right, bottom, top 
+     */
+}
+.left {
+    float: left;
+    /* Hace flotar los elementos de acuerdo a su contenedor segun se le indique */
+    width: 200px;
+}
+.container {
+    height: 200px;
+}
+.right {
+    float: right;
+}
+.card {
+    text-align: center;
+    border: #000 solid 1px;
+    border-radius: 5px;
+    margin: 1% ;
+    padding: 10px 0 10px 0;
+    width: 31%;
+    /* De esta forma se pueden hacer las columnas */
+}
+.inline-block {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background-color: #a52a2a;
+}
+.center {
+    padding: 10px 0;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: bisque;
+}
+.center:hover{
+    color: aqua;
+    background-color: bisque;
+    cursor: pointer;
+}

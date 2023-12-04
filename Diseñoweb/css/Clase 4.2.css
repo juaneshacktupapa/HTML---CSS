@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: o;
+}
+body{
+	color: black;
+	font-family: Arial;
+	line-height: 20px;
+}
+.caja{
+	background: #0353A4;
+	width: 200px;
+	/*height: 200px;*/
+	margin:20px 5px;
+	padding: 20px;
+	border:2px solid black;
+	/*margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;*/
+}
+.caja p{
+	background: gray;
+}
+.A{
+	margin: 20px 0px;
+}
+.boton{
+	background: #A8DABC;
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	margin: 0px 10px;
+	border-radius: 5px;
+}
+.boton:hover{
+	opacity: .7;
+}
+.uno{
+	font-size: 14px;
+	padding: 10px 15px;
+	background: #246EBA;
+}
+.dos{
+	font-size: 16px;
+	padding: 15px 20px;
+	background: #4FB560;
+}
+.tres{
+	font-size: 18px;
+	padding: 20px 25px;
+	background: #F9A03F
+}
+.cuatro{
+	font-size: 20px;
+	padding: 25px 30px;
+}

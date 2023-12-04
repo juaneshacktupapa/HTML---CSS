@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+h1, h2, h3, h4, h5, h6 {
+    color: aqua;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    color: brown;
+}
+a {
+    color: red;
+    font-size: 20px;
+}
+p a {
+    color: orange;
+    font-size: 10px;
+}
+p .yellow {
+    color: yellowgreen;
+    font-size: 15px;
+}
+a[href="#"]{
+    font-style: italic;
+}

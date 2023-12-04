@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+.Primario{
+	width: 90%;
+	height: 100%;
+}
+.Azul{
+	width: 100%;
+	height: 100px;
+	border: 5px solid black;
+	background-color: #356db2;
+}
+.Rojo{
+	width: 20%;
+	height: 360px;
+	border: 5px solid black;
+	background-color: #b63633;
+	float: left;
+}
+.Morado{
+	width: 80%;
+	height: 360px;
+	border: 5px solid black;
+	background-color: #634585;
+	float: left;
+
+}
+.Naranjai{
+	width: 50%;
+	height: 140px;
+	border: 5px solid black;
+	background-color: #de7922;
+	float: left;
+}
+.Naranjad{
+	width: 50%;
+	height: 140px;
+	border: 5px solid black;
+	background-color: #de7922;
+	float: left;
+}

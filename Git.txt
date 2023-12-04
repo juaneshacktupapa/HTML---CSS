@@ -1,0 +1,17 @@
+Git
+Ir a git hub
+Crear nuevo proyecto
+Abrir git bash dentro de la carpeta que se desea subir
+git init | para crear el repositorio de manera local solo la primera vez
+git status | para validar el estado
+git add . | para agregar todos los archivos
+git commit -m "Descripcion del commit" | para crear un commit
+git remote add origin url | agregar la url del repositorio solo la primera vez
+git push -u origin rama | para decir cual rama deseamos subi
+git log --oneline | historial de commits
+git brach | lista las ramas
+git branch rama | crear nueva rama
+git brach -d rama | elimina rama
+git checkout rama | cambiarse de rama
+git merge rama | para hacer el merge - se debe estar en la rama principal 
+clear | limpiar linea de comandos

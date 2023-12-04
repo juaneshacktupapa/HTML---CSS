@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: oswald, sans-serif;
+	background: #000 url("../img/c81.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+.contenedor{
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+header .menu a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 18px
+}
+header .meme a:hover{
+	text-decoration: underline;
+}
+.main{
+	background: #fff;
+	padding: 20px;
+	width: 70%;
+}
+.main article .texto{
+	margin-bottom: 20px;
+}
+.main article .texto img{
+	vertical-align: top;
+	width: 100%;
+}
+.main article p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 27px;
+}
+aside{
+	width: 30%;
+	background: #537dca;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+aside .uno{
+	font-size: 30px;
+	text-align: center;;
+	color: #FFF;
+	padding: 50px 0px;
+	background: #4264a2;
+}
+footer{
+	margin-top: 20px;
+	background: rgba(255,255,255,.2);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #FFF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+}
+footer .redes a{
+	color: #FFF;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+footer .redes a:hover{
+	text-decoration: none;
+}
+@media screen and (max-width: 600px){
+	.main{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+		flex-direction: row;
+	}
+}
+@media screen and (max-width: 600px){
+	header{
+		flex-direction: column;
+		padding-bottom: 20px;
+	}
+	header .menu{
+		width: 100%;
+		background: rgba(255,255,255,.2);
+		text-align: center;
+		padding: 20px;
+	}
+	header .logo{
+		margin-bottom: 20px;
+	}
+	header .menu a{
+		margin: 0 20px;
+	}
+	footer{
+		flex-direction: column;
+		text-align: center;
+	}
+	footer .redes{
+		order: 2;
+	}
+	footer .autor{
+		order: 1;
+		margin-bottom: 20px;
+	}
+}

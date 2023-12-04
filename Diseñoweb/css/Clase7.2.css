@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poiret one;
+}
+body{
+	background: #F5F8DE;
+}
+.contenedor{
+	margin-top: 30px;
+	width: 100% ;
+	margin-bottom:30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login{
+	font-size: 17px;
+	width: 35%;
+	background: rgb(45,45,45,0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:solid 1px rgb(45,45,45,0.2);
+	border-radius: 7px;
+	transition: all ease 700ms;
+}
+.login:hover{
+	width: 40%
+	box-shadow:0px 1px 20px rgb(0,0,0,0.4);
+}
+.login .uno h2{
+	color: #FFF;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px; 
+} 
+.login .dos{
+	text-align: right;
+	color: black;
+}
+.login form input{
+	height: 23px;
+	font-size: 23px;
+	text-align: right;
+	border:0;
+	box-shadow: 0;
+	background: rgb(45,45,45,0.1);
+	margin-left: 30px;
+	border-bottom: solid #FFF 1px;
+	transition: all ease 500ms;
+}
+.login form .in:focus{
+	background: #FFF;
+	color:#000;
+	border-radius: 5px;
+	height: 30px;
+	border:0px;
+}
+.login form{
+	font-size: 20px;
+}
+.login  form .botom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:0px;
+	height: 40px;
+	margin-top: 20px;
+	justify-content: center;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	width: 40%;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #FFF;
+	transition: all ease 600ms; 
+}
+.login form .boton:hover{
+	width: 100%;
+	margin-left: -6px;
+	background: #FFF;
+	border-radius: 5px;
+	color: rgb(0,0,0,0.4);
+}
+.di{
+	width: 50px;
+}
+.an{
+	width: 100px;
+}
